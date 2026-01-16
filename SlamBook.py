@@ -21,7 +21,7 @@ def view_entries():
             print("\nEntry", i + 1)
             print("Name        :", slam_book[i][0])
             print("Nickname    :", slam_book[i][1])
-            print("Fav Food   :", slam_book[i][2])
+            print("Favourite Food   :", slam_book[i][2])
             print("Hobby       :", slam_book[i][3])
             print("Dream       :", slam_book[i][4])
         print()
