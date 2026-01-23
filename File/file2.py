@@ -1,0 +1,15 @@
+file_read = open('Myself.txt', 'r')
+print("File in read mode -")
+print(file_read.read())
+file_read.close()
+
+file_write = open('Myself.txt', 'w')
+file_write.write("My name is Aidah Afseen Shezma. ")
+file_write.write("I am a student of class 7. ")
+file_write.write("\n Hello, I am Micheal Jackson, also known as the king of pop music.")
+file_write.close()
+
+file_append = open('Myself.txt', 'a')
+file_append.write("\n File in append mood....")
+file_append.write("Hi! I am Penguin. I'm 1 year old")
+file_append.close()
